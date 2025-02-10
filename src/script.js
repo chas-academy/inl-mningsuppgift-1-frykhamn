@@ -13,7 +13,7 @@ function showContacts(contactBook, groupToShow) { // Rör ej denna kod
 
     // Loopar igenom alla kontakter och jämför grupp
 
-
+console.log("hej")
 
 }
 
