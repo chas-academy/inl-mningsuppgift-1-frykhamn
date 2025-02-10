@@ -35,7 +35,7 @@ function showContacts(contactBook, groupToShow) {
   // Loopar igenom alla kontakter och jämför grupp
   for (let contact of contactBook.contacts) {
       if (contact.group === groupToShow) {
-          return `Namn: ${contact.name}, Telefon: ${contact.phone}`;
+          return console.log(`Namn: ${contact.name}, Telefon: ${contact.phone}`);
       }
   }
 }
